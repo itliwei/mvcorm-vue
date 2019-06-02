@@ -9,7 +9,7 @@
     "start": "npm run dev",
     "build:sit":"cross-env NODE_ENV=production env_config=sit node build/build.js",
     "build:zprod":"cross-env NODE_ENV=production env_config=zprod node build/build.js",
-    "build:pord":"cross-env NODE_ENV=production env_config=prod node build/build.js",
+    "build:prod":"cross-env NODE_ENV=production env_config=prod node build/build.js",
     "build:report": "npm_config_report=true npm run build",
     "lint": "eslint --ext .js,.vue src",
     "test": "npm run lint",
